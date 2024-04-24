@@ -1,3 +1,4 @@
+import pytest
 from control_pendulum import control_pendulum
 
 def test_basic():
