@@ -19,3 +19,5 @@ def test_quality():
     print(f"Achieved cost from 0: { cost_from_zero }, max. cost allowed={max_cost_from_zero}")
     assert cost_from_zero < max_cost_from_zero
 
+if __name__ == "__main__":
+    test_quality()
